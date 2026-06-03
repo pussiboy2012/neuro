@@ -1,0 +1,214 @@
+root@rentserv:/home/user/Desktop/neuro# python3 kursach.py
+cuda RTX3090
+Downloading https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz to ./data/cifar-100-python.tar.gz
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 169001437/169001437 [00:09<00:00, 17896225.15it/s]Extracting ./data/cifar-100-python.tar.gz to ./data
+Files already downloaded and verified
+✅ Используется ptflops для точного подсчёта FLOPs
+
+======================================================================
+🔥 ЭКСПЕРИМЕНТ: groups = 1
+======================================================================
+📊 Количество параметров: 23,705,252
+⚙️  FLOPs (приблизительные): 2.62 GFLOPs
+⏱️  Среднее время инференса (CPU, batch=1): 1657.87 ms
+✅ Эпоха  1/40 | Train Loss: 4.8466 Acc: 1.46% | Val Loss: 4.4274 Acc: 2.32% | LR: 0.09985 | Best Val Acc: 2.32%
+✅ Эпоха  2/40 | Train Loss: 4.2182 Acc: 4.09% | Val Loss: 4.0413 Acc: 5.69% | LR: 0.09938 | Best Val Acc: 5.69%
+✅ Эпоха  3/40 | Train Loss: 3.9519 Acc: 7.04% | Val Loss: 3.8207 Acc: 9.18% | LR: 0.09862 | Best Val Acc: 9.18%
+✅ Эпоха  4/40 | Train Loss: 3.7330 Acc: 10.83% | Val Loss: 3.5656 Acc: 13.92% | LR: 0.09755 | Best Val Acc: 13.92%
+✅ Эпоха  5/40 | Train Loss: 3.4979 Acc: 15.01% | Val Loss: 3.3787 Acc: 17.23% | LR: 0.09619 | Best Val Acc: 17.23%
+✅ Эпоха  6/40 | Train Loss: 3.2270 Acc: 20.01% | Val Loss: 3.0852 Acc: 23.20% | LR: 0.09455 | Best Val Acc: 23.20%
+✅ Эпоха  7/40 | Train Loss: 2.9602 Acc: 25.47% | Val Loss: 3.0310 Acc: 27.98% | LR: 0.09263 | Best Val Acc: 27.98%
+✅ Эпоха  8/40 | Train Loss: 2.6971 Acc: 30.46% | Val Loss: 2.7109 Acc: 31.48% | LR: 0.09045 | Best Val Acc: 31.48%
+✅ Эпоха  9/40 | Train Loss: 2.4866 Acc: 35.14% | Val Loss: 2.5308 Acc: 35.76% | LR: 0.08802 | Best Val Acc: 35.76%
+✅ Эпоха 10/40 | Train Loss: 2.3203 Acc: 38.52% | Val Loss: 2.3228 Acc: 40.19% | LR: 0.08536 | Best Val Acc: 40.19%
+✅ Эпоха 11/40 | Train Loss: 2.1724 Acc: 41.61% | Val Loss: 2.2513 Acc: 42.09% | LR: 0.08247 | Best Val Acc: 42.09%
+✅ Эпоха 12/40 | Train Loss: 2.0347 Acc: 44.74% | Val Loss: 2.0495 Acc: 45.87% | LR: 0.07939 | Best Val Acc: 45.87%
+✅ Эпоха 13/40 | Train Loss: 1.9240 Acc: 47.54% | Val Loss: 2.0700 Acc: 45.45% | LR: 0.07612 | Best Val Acc: 45.87%
+✅ Эпоха 14/40 | Train Loss: 1.8228 Acc: 49.70% | Val Loss: 2.0157 Acc: 46.74% | LR: 0.07270 | Best Val Acc: 46.74%
+✅ Эпоха 15/40 | Train Loss: 1.7020 Acc: 52.75% | Val Loss: 1.9302 Acc: 49.26% | LR: 0.06913 | Best Val Acc: 49.26%
+✅ Эпоха 16/40 | Train Loss: 1.6026 Acc: 54.74% | Val Loss: 1.8223 Acc: 50.89% | LR: 0.06545 | Best Val Acc: 50.89%
+✅ Эпоха 17/40 | Train Loss: 1.4940 Acc: 57.61% | Val Loss: 1.8262 Acc: 53.02% | LR: 0.06167 | Best Val Acc: 53.02%
+✅ Эпоха 18/40 | Train Loss: 1.4044 Acc: 59.96% | Val Loss: 1.7188 Acc: 53.97% | LR: 0.05782 | Best Val Acc: 53.97%
+✅ Эпоха 19/40 | Train Loss: 1.3047 Acc: 62.35% | Val Loss: 1.6881 Acc: 56.41% | LR: 0.05392 | Best Val Acc: 56.41%
+✅ Эпоха 20/40 | Train Loss: 1.2174 Acc: 64.60% | Val Loss: 1.6790 Acc: 56.88% | LR: 0.05000 | Best Val Acc: 56.88%
+✅ Эпоха 21/40 | Train Loss: 1.1266 Acc: 66.99% | Val Loss: 1.6512 Acc: 58.09% | LR: 0.04608 | Best Val Acc: 58.09%
+✅ Эпоха 23/40 | Train Loss: 0.9614 Acc: 71.25% | Val Loss: 1.6107 Acc: 58.95% | LR: 0.03833 | Best Val Acc: 60.16%
+✅ Эпоха 24/40 | Train Loss: 0.8788 Acc: 73.60% | Val Loss: 1.6526 Acc: 61.36% | LR: 0.03455 | Best Val Acc: 61.36%
+✅ Эпоха 25/40 | Train Loss: 0.7937 Acc: 75.74% | Val Loss: 1.5404 Acc: 62.50% | LR: 0.03087 | Best Val Acc: 62.50%
+✅ Эпоха 26/40 | Train Loss: 0.7149 Acc: 78.06% | Val Loss: 1.6836 Acc: 62.55% | LR: 0.02730 | Best Val Acc: 62.55%
+✅ Эпоха 27/40 | Train Loss: 0.6461 Acc: 79.92% | Val Loss: 1.6676 Acc: 63.14% | LR: 0.02388 | Best Val Acc: 63.14%
+✅ Эпоха 28/40 | Train Loss: 0.5686 Acc: 82.15% | Val Loss: 1.9988 Acc: 63.78% | LR: 0.02061 | Best Val Acc: 63.78%
+✅ Эпоха 29/40 | Train Loss: 0.4887 Acc: 84.65% | Val Loss: 1.6946 Acc: 63.90% | LR: 0.01753 | Best Val Acc: 63.90%
+✅ Эпоха 30/40 | Train Loss: 0.4183 Acc: 86.73% | Val Loss: 1.7672 Acc: 64.82% | LR: 0.01464 | Best Val Acc: 64.82%
+✅ Эпоха 31/40 | Train Loss: 0.3524 Acc: 88.74% | Val Loss: 1.7167 Acc: 65.42% | LR: 0.01198 | Best Val Acc: 65.42%
+✅ Эпоха 32/40 | Train Loss: 0.2847 Acc: 91.07% | Val Loss: 1.7333 Acc: 65.61% | LR: 0.00955 | Best Val Acc: 65.61%
+✅ Эпоха 33/40 | Train Loss: 0.2391 Acc: 92.60% | Val Loss: 2.1933 Acc: 65.71% | LR: 0.00737 | Best Val Acc: 65.71%
+✅ Эпоха 34/40 | Train Loss: 0.1931 Acc: 94.19% | Val Loss: 2.1732 Acc: 66.14% | LR: 0.00545 | Best Val Acc: 66.14%
+✅ Эпоха 35/40 | Train Loss: 0.1586 Acc: 95.34% | Val Loss: 2.4711 Acc: 66.44% | LR: 0.00381 | Best Val Acc: 66.44%
+✅ Эпоха 36/40 | Train Loss: 0.1356 Acc: 96.22% | Val Loss: 2.0698 Acc: 67.19% | LR: 0.00245 | Best Val Acc: 67.19%
+✅ Эпоха 37/40 | Train Loss: 0.1207 Acc: 96.90% | Val Loss: 1.8575 Acc: 67.02% | LR: 0.00138 | Best Val Acc: 67.19%
+✅ Эпоха 38/40 | Train Loss: 0.1054 Acc: 97.32% | Val Loss: 2.3316 Acc: 67.29% | LR: 0.00062 | Best Val Acc: 67.29%
+✅ Эпоха 39/40 | Train Loss: 0.1013 Acc: 97.43% | Val Loss: 1.9490 Acc: 67.18% | LR: 0.00015 | Best Val Acc: 67.29%
+✅ Эпоха 40/40 | Train Loss: 0.0968 Acc: 97.69% | Val Loss: 2.2531 Acc: 67.21% | LR: 0.00000 | Best Val Acc: 67.29%
+
+🏁 Закончено groups=1. Лучшая точность на валидации: 67.29%
+⏱️  Общее время обучения: 2277.54 сек (37.96 мин)
+💾 Модель сохранена: ./experiment_results/resnet50_groups_1_best.pth
+
+
+======================================================================
+🔥 ЭКСПЕРИМЕНТ: groups = 2
+======================================================================
+📊 Количество параметров: 18,046,628
+⚙️  FLOPs (приблизительные): 2.02 GFLOPs
+⏱️  Среднее время инференса (CPU, batch=1): 1524.33 ms
+✅ Эпоха  1/40 | Train Loss: 4.8454 Acc: 2.25% | Val Loss: 4.3413 Acc: 3.84% | LR: 0.09985 | Best Val Acc: 3.84%
+✅ Эпоха  2/40 | Train Loss: 4.1533 Acc: 5.24% | Val Loss: 4.0353 Acc: 6.34% | LR: 0.09938 | Best Val Acc: 6.34%
+✅ Эпоха  3/40 | Train Loss: 3.8827 Acc: 8.81% | Val Loss: 3.8239 Acc: 11.33% | LR: 0.09862 | Best Val Acc: 11.33%
+✅ Эпоха  4/40 | Train Loss: 3.6225 Acc: 12.96% | Val Loss: 3.4077 Acc: 17.00% | LR: 0.09755 | Best Val Acc: 17.00%
+✅ Эпоха  5/40 | Train Loss: 3.3462 Acc: 18.05% | Val Loss: 3.1538 Acc: 22.30% | LR: 0.09619 | Best Val Acc: 22.30%
+✅ Эпоха  6/40 | Train Loss: 3.0779 Acc: 22.92% | Val Loss: 3.0179 Acc: 24.45% | LR: 0.09455 | Best Val Acc: 24.45%
+✅ Эпоха  7/40 | Train Loss: 2.8228 Acc: 28.29% | Val Loss: 2.7237 Acc: 30.37% | LR: 0.09263 | Best Val Acc: 30.37%
+✅ Эпоха  8/40 | Train Loss: 2.5669 Acc: 33.26% | Val Loss: 2.5629 Acc: 34.59% | LR: 0.09045 | Best Val Acc: 34.59%
+✅ Эпоха  9/40 | Train Loss: 2.3354 Acc: 38.33% | Val Loss: 2.4884 Acc: 36.43% | LR: 0.08802 | Best Val Acc: 36.43%
+✅ Эпоха 10/40 | Train Loss: 2.1453 Acc: 42.45% | Val Loss: 2.3168 Acc: 40.46% | LR: 0.08536 | Best Val Acc: 40.46%
+✅ Эпоха 11/40 | Train Loss: 1.9801 Acc: 46.24% | Val Loss: 2.0058 Acc: 46.31% | LR: 0.08247 | Best Val Acc: 46.31%
+✅ Эпоха 12/40 | Train Loss: 1.8323 Acc: 49.70% | Val Loss: 1.9776 Acc: 47.38% | LR: 0.07939 | Best Val Acc: 47.38%
+✅ Эпоха 13/40 | Train Loss: 1.6987 Acc: 52.56% | Val Loss: 1.8999 Acc: 49.15% | LR: 0.07612 | Best Val Acc: 49.15%
+✅ Эпоха 14/40 | Train Loss: 1.5715 Acc: 55.56% | Val Loss: 2.2512 Acc: 48.31% | LR: 0.07270 | Best Val Acc: 49.15%
+✅ Эпоха 15/40 | Train Loss: 1.4462 Acc: 58.74% | Val Loss: 1.6599 Acc: 54.73% | LR: 0.06913 | Best Val Acc: 54.73%
+✅ Эпоха 16/40 | Train Loss: 1.3443 Acc: 61.24% | Val Loss: 1.6169 Acc: 55.68% | LR: 0.06545 | Best Val Acc: 55.68%
+✅ Эпоха 17/40 | Train Loss: 1.2476 Acc: 63.69% | Val Loss: 1.5452 Acc: 57.36% | LR: 0.06167 | Best Val Acc: 57.36%
+✅ Эпоха 18/40 | Train Loss: 1.1550 Acc: 66.02% | Val Loss: 1.6415 Acc: 56.65% | LR: 0.05782 | Best Val Acc: 57.36%
+✅ Эпоха 19/40 | Train Loss: 1.0666 Acc: 68.59% | Val Loss: 1.5026 Acc: 59.82% | LR: 0.05392 | Best Val Acc: 59.82%
+✅ Эпоха 20/40 | Train Loss: 0.9860 Acc: 70.21% | Val Loss: 1.4909 Acc: 60.13% | LR: 0.05000 | Best Val Acc: 60.13%
+✅ Эпоха 21/40 | Train Loss: 0.9037 Acc: 72.54% | Val Loss: 1.4631 Acc: 61.18% | LR: 0.04608 | Best Val Acc: 61.18%
+✅ Эпоха 22/40 | Train Loss: 0.8241 Acc: 75.05% | Val Loss: 1.4013 Acc: 62.51% | LR: 0.04218 | Best Val Acc: 62.51%
+✅ Эпоха 23/40 | Train Loss: 0.7405 Acc: 77.39% | Val Loss: 1.4124 Acc: 64.00% | LR: 0.03833 | Best Val Acc: 64.00%
+✅ Эпоха 24/40 | Train Loss: 0.6672 Acc: 79.12% | Val Loss: 1.4625 Acc: 63.62% | LR: 0.03455 | Best Val Acc: 64.00%
+✅ Эпоха 25/40 | Train Loss: 0.5971 Acc: 81.12% | Val Loss: 1.4079 Acc: 65.15% | LR: 0.03087 | Best Val Acc: 65.15%
+✅ Эпоха 26/40 | Train Loss: 0.5093 Acc: 84.02% | Val Loss: 1.4665 Acc: 65.16% | LR: 0.02730 | Best Val Acc: 65.16%
+✅ Эпоха 27/40 | Train Loss: 0.4407 Acc: 85.97% | Val Loss: 1.4807 Acc: 65.80% | LR: 0.02388 | Best Val Acc: 65.80%
+✅ Эпоха 28/40 | Train Loss: 0.3724 Acc: 88.06% | Val Loss: 1.4875 Acc: 66.00% | LR: 0.02061 | Best Val Acc: 66.00%
+✅ Эпоха 29/40 | Train Loss: 0.3059 Acc: 90.29% | Val Loss: 1.5282 Acc: 66.01% | LR: 0.01753 | Best Val Acc: 66.01%
+✅ Эпоха 30/40 | Train Loss: 0.2363 Acc: 92.66% | Val Loss: 1.4716 Acc: 67.61% | LR: 0.01464 | Best Val Acc: 67.61%
+✅ Эпоха 31/40 | Train Loss: 0.1886 Acc: 94.38% | Val Loss: 1.4960 Acc: 67.92% | LR: 0.01198 | Best Val Acc: 67.92%
+✅ Эпоха 32/40 | Train Loss: 0.1415 Acc: 95.94% | Val Loss: 1.4731 Acc: 68.13% | LR: 0.00955 | Best Val Acc: 68.13%
+✅ Эпоха 33/40 | Train Loss: 0.1142 Acc: 97.01% | Val Loss: 1.5310 Acc: 68.75% | LR: 0.00737 | Best Val Acc: 68.75%
+✅ Эпоха 34/40 | Train Loss: 0.0901 Acc: 97.75% | Val Loss: 1.5179 Acc: 68.93% | LR: 0.00545 | Best Val Acc: 68.93%
+✅ Эпоха 35/40 | Train Loss: 0.0759 Acc: 98.21% | Val Loss: 1.5104 Acc: 69.22% | LR: 0.00381 | Best Val Acc: 69.22%
+✅ Эпоха 36/40 | Train Loss: 0.0639 Acc: 98.68% | Val Loss: 1.5154 Acc: 69.37% | LR: 0.00245 | Best Val Acc: 69.37%
+✅ Эпоха 37/40 | Train Loss: 0.0577 Acc: 98.92% | Val Loss: 1.5247 Acc: 69.06% | LR: 0.00138 | Best Val Acc: 69.37%
+✅ Эпоха 38/40 | Train Loss: 0.0545 Acc: 99.01% | Val Loss: 1.5205 Acc: 69.12% | LR: 0.00062 | Best Val Acc: 69.37%
+✅ Эпоха 39/40 | Train Loss: 0.0523 Acc: 99.03% | Val Loss: 1.5166 Acc: 69.43% | LR: 0.00015 | Best Val Acc: 69.43%
+✅ Эпоха 40/40 | Train Loss: 0.0497 Acc: 99.12% | Val Loss: 1.5200 Acc: 69.50% | LR: 0.00000 | Best Val Acc: 69.50%
+
+🏁 Закончено groups=2. Лучшая точность на валидации: 69.50%
+⏱️  Общее время обучения: 2106.42 сек (35.11 мин)
+💾 Модель сохранена: ./experiment_results/resnet50_groups_2_best.pth
+
+
+======================================================================
+🔥 ЭКСПЕРИМЕНТ: groups = 4
+======================================================================
+📊 Количество параметров: 15,217,316
+⚙️  FLOPs (приблизительные): 1.72 GFLOPs
+⏱️  Среднее время инференса (CPU, batch=1): 1480.33 ms
+✅ Эпоха  1/40 | Train Loss: 4.8787 Acc: 0.97% | Val Loss: 4.5883 Acc: 1.25% | LR: 0.09985 | Best Val Acc: 1.25%
+✅ Эпоха  2/40 | Train Loss: 4.4247 Acc: 2.44% | Val Loss: 4.2570 Acc: 3.35% | LR: 0.09938 | Best Val Acc: 3.35%
+✅ Эпоха  3/40 | Train Loss: 4.1236 Acc: 5.21% | Val Loss: 3.9712 Acc: 6.90% | LR: 0.09862 | Best Val Acc: 6.90%
+✅ Эпоха  4/40 | Train Loss: 3.8922 Acc: 8.55% | Val Loss: 3.7424 Acc: 10.95% | LR: 0.09755 | Best Val Acc: 10.95%
+✅ Эпоха  5/40 | Train Loss: 3.6348 Acc: 12.81% | Val Loss: 3.5102 Acc: 15.09% | LR: 0.09619 | Best Val Acc: 15.09%
+✅ Эпоха  6/40 | Train Loss: 3.3313 Acc: 18.63% | Val Loss: 3.1677 Acc: 22.00% | LR: 0.09455 | Best Val Acc: 22.00%
+✅ Эпоха  7/40 | Train Loss: 3.0589 Acc: 23.70% | Val Loss: 2.8896 Acc: 27.64% | LR: 0.09263 | Best Val Acc: 27.64%
+✅ Эпоха  8/40 | Train Loss: 2.8192 Acc: 28.56% | Val Loss: 2.6741 Acc: 31.87% | LR: 0.09045 | Best Val Acc: 31.87%
+✅ Эпоха  9/40 | Train Loss: 2.6152 Acc: 32.36% | Val Loss: 2.6182 Acc: 33.18% | LR: 0.08802 | Best Val Acc: 33.18%
+✅ Эпоха 10/40 | Train Loss: 2.4041 Acc: 37.12% | Val Loss: 2.3857 Acc: 38.26% | LR: 0.08536 | Best Val Acc: 38.26%
+✅ Эпоха 11/40 | Train Loss: 2.2294 Acc: 40.64% | Val Loss: 2.2676 Acc: 39.93% | LR: 0.08247 | Best Val Acc: 39.93%
+✅ Эпоха 12/40 | Train Loss: 2.0753 Acc: 44.24% | Val Loss: 2.1496 Acc: 43.79% | LR: 0.07939 | Best Val Acc: 43.79%
+✅ Эпоха 13/40 | Train Loss: 1.9347 Acc: 47.25% | Val Loss: 2.0286 Acc: 46.24% | LR: 0.07612 | Best Val Acc: 46.24%
+✅ Эпоха 14/40 | Train Loss: 1.7966 Acc: 50.49% | Val Loss: 1.8868 Acc: 48.87% | LR: 0.07270 | Best Val Acc: 48.87%
+✅ Эпоха 15/40 | Train Loss: 1.6785 Acc: 53.29% | Val Loss: 1.8673 Acc: 49.47% | LR: 0.06913 | Best Val Acc: 49.47%
+✅ Эпоха 16/40 | Train Loss: 1.5645 Acc: 56.08% | Val Loss: 1.7423 Acc: 53.06% | LR: 0.06545 | Best Val Acc: 53.06%
+✅ Эпоха 17/40 | Train Loss: 1.4545 Acc: 58.56% | Val Loss: 1.7495 Acc: 53.29% | LR: 0.06167 | Best Val Acc: 53.29%
+✅ Эпоха 18/40 | Train Loss: 1.3552 Acc: 61.21% | Val Loss: 1.7569 Acc: 55.02% | LR: 0.05782 | Best Val Acc: 55.02%
+✅ Эпоха 19/40 | Train Loss: 1.2906 Acc: 62.60% | Val Loss: 1.5997 Acc: 56.72% | LR: 0.05392 | Best Val Acc: 56.72%
+✅ Эпоха 20/40 | Train Loss: 1.1863 Acc: 65.42% | Val Loss: 1.5230 Acc: 59.30% | LR: 0.05000 | Best Val Acc: 59.30%
+✅ Эпоха 21/40 | Train Loss: 1.0977 Acc: 67.73% | Val Loss: 1.4967 Acc: 59.99% | LR: 0.04608 | Best Val Acc: 59.99%
+✅ Эпоха 22/40 | Train Loss: 1.0160 Acc: 69.72% | Val Loss: 1.5480 Acc: 59.43% | LR: 0.04218 | Best Val Acc: 59.99%
+✅ Эпоха 23/40 | Train Loss: 0.9460 Acc: 71.68% | Val Loss: 1.4759 Acc: 61.21% | LR: 0.03833 | Best Val Acc: 61.21%
+✅ Эпоха 24/40 | Train Loss: 0.8569 Acc: 73.89% | Val Loss: 1.4822 Acc: 61.26% | LR: 0.03455 | Best Val Acc: 61.26%
+✅ Эпоха 25/40 | Train Loss: 0.7793 Acc: 76.17% | Val Loss: 1.4259 Acc: 62.80% | LR: 0.03087 | Best Val Acc: 62.80%
+✅ Эпоха 26/40 | Train Loss: 0.6982 Acc: 78.30% | Val Loss: 1.4728 Acc: 62.72% | LR: 0.02730 | Best Val Acc: 62.80%
+✅ Эпоха 27/40 | Train Loss: 0.6235 Acc: 80.44% | Val Loss: 1.4792 Acc: 63.12% | LR: 0.02388 | Best Val Acc: 63.12%
+✅ Эпоха 28/40 | Train Loss: 0.5388 Acc: 83.11% | Val Loss: 1.5146 Acc: 63.45% | LR: 0.02061 | Best Val Acc: 63.45%
+✅ Эпоха 29/40 | Train Loss: 0.4605 Acc: 85.50% | Val Loss: 1.6175 Acc: 63.79% | LR: 0.01753 | Best Val Acc: 63.79%
+✅ Эпоха 30/40 | Train Loss: 0.3815 Acc: 88.05% | Val Loss: 1.5260 Acc: 64.45% | LR: 0.01464 | Best Val Acc: 64.45%
+✅ Эпоха 31/40 | Train Loss: 0.3141 Acc: 90.23% | Val Loss: 1.5545 Acc: 65.51% | LR: 0.01198 | Best Val Acc: 65.51%
+✅ Эпоха 32/40 | Train Loss: 0.2538 Acc: 92.21% | Val Loss: 1.5102 Acc: 66.60% | LR: 0.00955 | Best Val Acc: 66.60%
+✅ Эпоха 33/40 | Train Loss: 0.2011 Acc: 94.19% | Val Loss: 1.5303 Acc: 66.80% | LR: 0.00737 | Best Val Acc: 66.80%
+✅ Эпоха 34/40 | Train Loss: 0.1651 Acc: 95.50% | Val Loss: 1.5694 Acc: 66.59% | LR: 0.00545 | Best Val Acc: 66.80%
+✅ Эпоха 35/40 | Train Loss: 0.1369 Acc: 96.50% | Val Loss: 1.5449 Acc: 67.20% | LR: 0.00381 | Best Val Acc: 67.20%
+✅ Эпоха 36/40 | Train Loss: 0.1186 Acc: 97.03% | Val Loss: 1.5470 Acc: 67.32% | LR: 0.00245 | Best Val Acc: 67.32%
+✅ Эпоха 37/40 | Train Loss: 0.1027 Acc: 97.72% | Val Loss: 1.5400 Acc: 67.51% | LR: 0.00138 | Best Val Acc: 67.51%
+✅ Эпоха 38/40 | Train Loss: 0.0960 Acc: 97.87% | Val Loss: 1.5805 Acc: 67.28% | LR: 0.00062 | Best Val Acc: 67.51%
+✅ Эпоха 39/40 | Train Loss: 0.0901 Acc: 98.18% | Val Loss: 1.5579 Acc: 67.70% | LR: 0.00015 | Best Val Acc: 67.70%
+✅ Эпоха 40/40 | Train Loss: 0.0876 Acc: 98.21% | Val Loss: 1.5618 Acc: 67.46% | LR: 0.00000 | Best Val Acc: 67.70%
+
+🏁 Закончено groups=4. Лучшая точность на валидации: 67.70%
+⏱️  Общее время обучения: 2105.76 сек (35.10 мин)
+💾 Модель сохранена: ./experiment_results/resnet50_groups_4_best.pth
+
+
+======================================================================
+🔥 ЭКСПЕРИМЕНТ: groups = 8
+======================================================================
+📊 Количество параметров: 13,802,660
+⚙️  FLOPs (приблизительные): 1.56 GFLOPs
+⏱️  Среднее время инференса (CPU, batch=1): 1459.20 ms
+✅ Эпоха  1/40 | Train Loss: 4.8053 Acc: 1.86% | Val Loss: 4.4909 Acc: 2.45% | LR: 0.09985 | Best Val Acc: 2.45%
+✅ Эпоха  2/40 | Train Loss: 4.1558 Acc: 4.86% | Val Loss: 3.9800 Acc: 7.06% | LR: 0.09938 | Best Val Acc: 7.06%
+✅ Эпоха  3/40 | Train Loss: 3.8882 Acc: 8.50% | Val Loss: 3.7798 Acc: 10.47% | LR: 0.09862 | Best Val Acc: 10.47%
+✅ Эпоха  4/40 | Train Loss: 3.6642 Acc: 12.09% | Val Loss: 3.5021 Acc: 15.70% | LR: 0.09755 | Best Val Acc: 15.70%
+✅ Эпоха  5/40 | Train Loss: 3.4042 Acc: 17.06% | Val Loss: 3.2467 Acc: 19.80% | LR: 0.09619 | Best Val Acc: 19.80%
+✅ Эпоха  6/40 | Train Loss: 3.1456 Acc: 21.99% | Val Loss: 3.0166 Acc: 24.91% | LR: 0.09455 | Best Val Acc: 24.91%
+✅ Эпоха  7/40 | Train Loss: 2.8963 Acc: 26.74% | Val Loss: 2.7502 Acc: 30.23% | LR: 0.09263 | Best Val Acc: 30.23%
+✅ Эпоха  8/40 | Train Loss: 2.6574 Acc: 31.33% | Val Loss: 2.5280 Acc: 34.00% | LR: 0.09045 | Best Val Acc: 34.00%
+✅ Эпоха  9/40 | Train Loss: 2.4502 Acc: 35.57% | Val Loss: 2.4022 Acc: 37.23% | LR: 0.08802 | Best Val Acc: 37.23%
+✅ Эпоха 10/40 | Train Loss: 2.2673 Acc: 40.00% | Val Loss: 2.2709 Acc: 39.37% | LR: 0.08536 | Best Val Acc: 39.37%
+✅ Эпоха 11/40 | Train Loss: 2.0967 Acc: 43.20% | Val Loss: 2.0867 Acc: 44.10% | LR: 0.08247 | Best Val Acc: 44.10%
+✅ Эпоха 12/40 | Train Loss: 1.9485 Acc: 46.71% | Val Loss: 2.0811 Acc: 45.11% | LR: 0.07939 | Best Val Acc: 45.11%
+✅ Эпоха 13/40 | Train Loss: 1.8015 Acc: 50.12% | Val Loss: 1.9421 Acc: 48.15% | LR: 0.07612 | Best Val Acc: 48.15%
+✅ Эпоха 14/40 | Train Loss: 1.6791 Acc: 53.14% | Val Loss: 1.8488 Acc: 50.74% | LR: 0.07270 | Best Val Acc: 50.74%
+✅ Эпоха 15/40 | Train Loss: 1.5552 Acc: 56.18% | Val Loss: 1.7399 Acc: 53.57% | LR: 0.06913 | Best Val Acc: 53.57%
+✅ Эпоха 16/40 | Train Loss: 1.4483 Acc: 58.71% | Val Loss: 1.6384 Acc: 54.99% | LR: 0.06545 | Best Val Acc: 54.99%
+✅ Эпоха 17/40 | Train Loss: 1.3580 Acc: 60.65% | Val Loss: 1.5995 Acc: 56.39% | LR: 0.06167 | Best Val Acc: 56.39%
+✅ Эпоха 18/40 | Train Loss: 1.2588 Acc: 63.38% | Val Loss: 1.6115 Acc: 56.93% | LR: 0.05782 | Best Val Acc: 56.93%
+✅ Эпоха 19/40 | Train Loss: 1.1735 Acc: 65.59% | Val Loss: 1.5223 Acc: 58.90% | LR: 0.05392 | Best Val Acc: 58.90%
+✅ Эпоха 20/40 | Train Loss: 1.0884 Acc: 67.67% | Val Loss: 1.5071 Acc: 59.32% | LR: 0.05000 | Best Val Acc: 59.32%
+✅ Эпоха 21/40 | Train Loss: 1.0096 Acc: 69.99% | Val Loss: 1.4570 Acc: 60.36% | LR: 0.04608 | Best Val Acc: 60.36%
+✅ Эпоха 22/40 | Train Loss: 0.9388 Acc: 71.76% | Val Loss: 1.4395 Acc: 61.53% | LR: 0.04218 | Best Val Acc: 61.53%
+✅ Эпоха 23/40 | Train Loss: 0.8594 Acc: 73.87% | Val Loss: 1.4474 Acc: 62.25% | LR: 0.03833 | Best Val Acc: 62.25%
+✅ Эпоха 24/40 | Train Loss: 0.7862 Acc: 76.09% | Val Loss: 1.4643 Acc: 62.60% | LR: 0.03455 | Best Val Acc: 62.60%
+✅ Эпоха 25/40 | Train Loss: 0.6961 Acc: 78.53% | Val Loss: 1.4805 Acc: 63.09% | LR: 0.03087 | Best Val Acc: 63.09%
+✅ Эпоха 26/40 | Train Loss: 0.6217 Acc: 80.58% | Val Loss: 1.4705 Acc: 63.85% | LR: 0.02730 | Best Val Acc: 63.85%
+✅ Эпоха 27/40 | Train Loss: 0.5543 Acc: 82.49% | Val Loss: 1.4912 Acc: 63.24% | LR: 0.02388 | Best Val Acc: 63.85%
+✅ Эпоха 28/40 | Train Loss: 0.4795 Acc: 84.90% | Val Loss: 1.4599 Acc: 64.84% | LR: 0.02061 | Best Val Acc: 64.84%
+✅ Эпоха 29/40 | Train Loss: 0.4059 Acc: 87.04% | Val Loss: 1.5347 Acc: 65.48% | LR: 0.01753 | Best Val Acc: 65.48%
+✅ Эпоха 30/40 | Train Loss: 0.3255 Acc: 89.75% | Val Loss: 1.4720 Acc: 65.93% | LR: 0.01464 | Best Val Acc: 65.93%
+✅ Эпоха 31/40 | Train Loss: 0.2729 Acc: 91.46% | Val Loss: 1.5169 Acc: 66.36% | LR: 0.01198 | Best Val Acc: 66.36%
+✅ Эпоха 32/40 | Train Loss: 0.2218 Acc: 93.44% | Val Loss: 1.5213 Acc: 66.70% | LR: 0.00955 | Best Val Acc: 66.70%
+✅ Эпоха 33/40 | Train Loss: 0.1767 Acc: 94.96% | Val Loss: 1.5012 Acc: 67.52% | LR: 0.00737 | Best Val Acc: 67.52%
+✅ Эпоха 34/40 | Train Loss: 0.1429 Acc: 96.09% | Val Loss: 1.4999 Acc: 67.88% | LR: 0.00545 | Best Val Acc: 67.88%
+✅ Эпоха 35/40 | Train Loss: 0.1215 Acc: 96.93% | Val Loss: 1.5197 Acc: 68.27% | LR: 0.00381 | Best Val Acc: 68.27%
+✅ Эпоха 36/40 | Train Loss: 0.1046 Acc: 97.51% | Val Loss: 1.5199 Acc: 68.23% | LR: 0.00245 | Best Val Acc: 68.27%
+✅ Эпоха 37/40 | Train Loss: 0.0923 Acc: 97.91% | Val Loss: 1.5235 Acc: 68.10% | LR: 0.00138 | Best Val Acc: 68.27%
+✅ Эпоха 38/40 | Train Loss: 0.0857 Acc: 98.09% | Val Loss: 1.5160 Acc: 68.46% | LR: 0.00062 | Best Val Acc: 68.46%
+✅ Эпоха 39/40 | Train Loss: 0.0813 Acc: 98.32% | Val Loss: 1.5204 Acc: 68.40% | LR: 0.00015 | Best Val Acc: 68.46%
+✅ Эпоха 40/40 | Train Loss: 0.0801 Acc: 98.38% | Val Loss: 1.5227 Acc: 68.37% | LR: 0.00000 | Best Val Acc: 68.46%
+
+🏁 Закончено groups=8. Лучшая точность на валидации: 68.46%
+⏱️  Общее время обучения: 2072.59 сек (34.54 мин)
+💾 Модель сохранена: ./experiment_results/resnet50_groups_8_best.pth
+
+📈 Визуализация распределения весов и градиентов (финальная модель)...
